@@ -1,0 +1,58 @@
+body {
+	background-color:rgb(27,20,100);
+}
+
+@font-face {
+	font-family:"CooperBlack";
+	src:url("CooperBlackStd.otf");
+}
+
+@font-face {
+	font-family:"GillSansMTPro-UltraBold";
+	src:url("GillSansMTPro-UltraBold.otf");
+}
+
+#catalogue {
+	font-family:"CooperBlack";
+	color:rgb(193,0,39);
+	font-size:160px;
+	text-align:center;
+}
+
+#rock, #hip-hop {
+	font-family:"CooperBlack";
+	font-size:30pt;
+}
+
+#rock {
+	position:absolute;
+	left:100px;
+	top:500px;
+}
+
+#hip-hop {
+	position:absolute;
+	left:100px;
+	top:540px;
+}
+
+#techno {
+	font-family:"CooperBlack";
+	font-size:30pt;
+	font-style:italic;
+	-webkit-transform:rotate(-20deg);
+}
+
+article div {
+	font-family:"GillSansMTPro-UltraBold";
+	font-size:12pt; 
+	color:rgb(0,113,188);
+	position:relative;
+	left:400px;
+}
+
+
+.style h2:hover {
+	-moz-linear-gradient(left,rgb(255,0,0), rgb(0,255,255));
+	-webkit-linear-gradient(left,red, yellow);
+}
